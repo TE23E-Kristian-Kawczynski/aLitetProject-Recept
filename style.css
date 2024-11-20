@@ -1,8 +1,8 @@
 body{
     display: grid;
-    grid-template-columns: 17fr 25fr 20fr;
-    grid-template-rows: 15vh 50vh;
-    background-color: #A9ABA9;
+    grid-template-columns: 15fr 20fr 25fr;
+    grid-template-rows: 15vh 120vh;
+    background-color: #FFFFFF;
     margin: 0;
 }
 /* First box */
@@ -11,10 +11,93 @@ body{
     height: 60px;
     grid-column: 1/4;
     grid-row: 1/2;
-    margin-top: 15px;
+    margin-top: 28px;
 }
 h1{
     text-align: center;
     margin-top: 10px;
+    text-decoration: underline;
 }
 /* Left box row 2 */
+nav{
+    background-color: #5ADB40;
+    margin-left: 20px;
+    text-align: center;
+    max-width: 200px;
+    height: 850px;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.ing{
+    margin-top: 10px;
+}
+#ingRubrik{
+    margin-top: 50px;
+}
+h2{
+    text-decoration: underline;
+}
+#rub2{
+    margin-top: 75px;
+}
+
+main{
+    background-image: url(./img/dark-brown-scratched-wooden-cutting-600nw-276938963.webp);
+    grid-row: 2/3;
+    grid-column: 3/4;
+    border-radius: 20px;
+    color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+    max-height: 500px;
+}
+#kött{
+    margin-top: 140px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.rubrik2{
+    text-align: center;
+}
+.text{
+    margin-top: 15px;
+}
+.tb{
+    margin-top: 10px;
+}
+
+#peppar{
+    width: 500px;
+    height: 200px;
+}
+#bild1{
+    width: 500px;
+    height: 400px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 30px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+footer{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+#lök{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 100%;
+    margin-top: 30px;
+}
